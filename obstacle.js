@@ -1,5 +1,10 @@
-const obstacle = (features, fieldSize, event) => {
-    return obstacleCoordinate;
-  };
+const obstacle = (features, fieldSize, event, snake) => {
   
-  module.exports = obstacle;
+  const obstacleCoord = {
+    obstacleX: 5, obstacleY: 5 ,
+  };
+
+  return obstacleCoord;
+};
+
+module.exports = obstacle;
